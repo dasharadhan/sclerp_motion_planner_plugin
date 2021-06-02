@@ -1,0 +1,7 @@
+<library path="libsclerp_motion_planner_plugin">
+  <class name="sclerp_interface/ScLERPPlanner" type="sclerp_interface::ScLERPPlannerManager" base_class_type="planning_interface::PlannerManager">
+    <description>
+      The ScLERP motion planner plugin which interpolates between two given start and goal poses using screw linear interpolation.
+    </description>
+  </class>
+</library>
